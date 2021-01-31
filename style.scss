@@ -58,9 +58,11 @@ h2 {
   font-size: 24px;
 }
 
-// index titles
+// blog title Letters at the left top corner
 h3 {
   font-size: 16px;
+  color: $black;
+  font-weight: 700;
 }
 
 h4 {
@@ -258,6 +260,7 @@ nav {
 
 .posts{
   text-align: center;
+  margin-top: 86px;
 }
 .post {
   blockquote {

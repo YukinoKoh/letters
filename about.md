@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello
 
-### More Information
+### About this blog
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+This site is made with
+- [Noto Serif JP](https://fonts.google.com/specimen/Noto+Serif+JP)
+- [jejykk-now](https://github.com/barryclark/jekyll-now)
