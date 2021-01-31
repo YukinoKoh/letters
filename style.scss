@@ -71,7 +71,7 @@ h3 {
 // blog index titles
 h4 {
   font-size: 16px;
-  color: $gray;
+  color: $black;
   a {
     color: inherit;
   }
@@ -208,15 +208,15 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 14px;
 
   @include mobile {
     margin: 3px 0;
@@ -268,6 +268,21 @@ nav {
 .posts{
   text-align: center;
   margin-top: 86px;
+}
+.posts-title{
+  color: $black;
+  font-size:14px;
+  a {
+    color: inherit;
+  }
+}
+.posts-date{
+  font-style: italic;
+  color: $gray;
+  font-size:14px;
+  a {
+    color: inherit;
+  }
 }
 .post {
   blockquote {

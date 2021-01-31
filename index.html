@@ -7,11 +7,11 @@ layout: default
     <article class="post-index">
 
       <a href="{{ site.baseurl }}{{ post.url }}">
-        -
-        <div class="date">
+        <h4 class="posts-date">{{ post.title }}</h4>
+        <div class="posts-date">
           {{ post.date | date: "%e %B, %Y" }}
+          <br/> -
         </div>
-        <h4>{{ post.title }}</h4>
 
       </a>
     </article>
