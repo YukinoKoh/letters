@@ -35,9 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $black;
   font-weight: bold;
-
   line-height: 1.7;
-  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -54,8 +52,10 @@ h1 {
   }
 }
 
+// post images
 h2 {
   font-size: 24px;
+  width: 100%;
 }
 
 // blog title Letters at the left top corner
@@ -272,6 +272,7 @@ nav {
 .posts-title{
   color: $black;
   font-size:14px;
+  margin: 15px 0, 0, 0;
   a {
     color: inherit;
   }
