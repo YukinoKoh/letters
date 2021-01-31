@@ -19,8 +19,9 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $notoserif;
+  font: 16px $notoserif;
   color: $darkGray;
+  font-weight: 300;
 }
 
 .container {
@@ -29,12 +30,10 @@ body {
   padding: 0 10px;
   width: 100%;
 }
-h1{
-  font-family: $notosans;
-}
-h2, h3, h4, h5, h6 {
+
+h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $black;
   font-weight: bold;
 
   line-height: 1.7;
@@ -46,8 +45,10 @@ h2, h3, h4, h5, h6 {
   }
 }
 
+// post titles
 h1 {
   font-size: 30px;
+  margin: 40px 0;
   a {
     color: inherit;
   }
@@ -57,8 +58,9 @@ h2 {
   font-size: 24px;
 }
 
+// index titles
 h3 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 h4 {
@@ -71,11 +73,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $rot;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $rot;
   }
 }
 
@@ -215,8 +217,9 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $notosans;
-  font-size: 18px;
+  font-family: $helveticaNeue;
+  font-size: 12px;
+  color: $gray;
 
   @include mobile {
     float: none;
@@ -234,7 +237,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $rot;
     }
   }
 }
@@ -253,6 +256,9 @@ nav {
   border-bottom: none;
 }
 
+.posts{
+  text-align: center;
+}
 .post {
   blockquote {
     margin: 1.8em .8em;
