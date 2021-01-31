@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $notoserif;
   color: $darkGray;
 }
 
@@ -29,8 +29,10 @@ body {
   padding: 0 10px;
   width: 100%;
 }
-
-h1, h2, h3, h4, h5, h6 {
+h1{
+  font-family: $notosans;
+}
+h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
@@ -213,7 +215,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $notosans;
   font-size: 18px;
 
   @include mobile {
