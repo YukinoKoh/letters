@@ -1,13 +1,10 @@
 ---
 layout: page
-title: About
+title: Hello
 permalink: /about/
 ---
 
-Hello
+### Thanks to ...
 
-### About this blog
-
-This site is made with
-- [Noto Serif JP](https://fonts.google.com/specimen/Noto+Serif+JP)
-- [jejykk-now](https://github.com/barryclark/jekyll-now)
+- This site is developed based on [jekyll](https://jekyllrb.com/) and [jejykk-now](https://github.com/barryclark/jekyll-now)
+- The body fonts are set with [Noto Serif JP designed by Google](https://fonts.google.com/specimen/Noto+Serif+JP)
